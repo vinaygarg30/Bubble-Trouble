@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bubble Trouble</title>
+        <meta name="description" content="Bubble Trouble">
+        <link rel="stylesheet" type="text/css" href="style/game.css">
+    </head>
+<body>
+    <div id="pauseMenu" class="button_style">
+        <div align="center" class="stop_game">
+            <a id="resumeButton" onclick="resumeButtonOnClick()" class="button start">Resume</a>
+            <a href="game.html" class="button instruction">Restart</a>
+            <a href="index.html" class="button quit">Main Menu</a>
+        </div>
+    </div>
+    <div id="gameOverMenu" class="button_style">
+        <div align="center" class="stop_game">
+            <span id="pointsPara">Points: </span>
+            <a href="game.html" class="button instruction">Play Again</a>
+            <a href="index.html" class="button quit">Main Menu</a>
+        </div>
+    </div>
+    <img id="pausedPara" onclick="pausedParaOnClick()" src="images/pause.png">
+    <p id="timePara"></p>
+<div id = "textDiv">
+</div>
+<div>
+    <img src="images/bfly.gif" id="butterfly" onclick="butterflyOnClick()" style="position: absolute;
+    bottom: 60px;
+    height:50px; width:50px; left: 1px;">
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/movingAnimation.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
