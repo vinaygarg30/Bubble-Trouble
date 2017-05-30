@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg.png");
+    color: #ffffff;
+    font-family: Papyrus, serif;
+
+}
+a{
+    text-decoration: none;
+}
+/*
+        Index Page
+*/
+.main_menu
+{
+    margin-top: 90px;
+}
+
+.button{
+    display: block;
+    height: 37px;
+    width: 140px;
+    background-color: grey;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 2px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 4px black;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button.start{
+    margin-top: 40px;
+}
+.button.instruction{
+    margin-top: 30px;
+}
+.button.quit{
+    margin-top: 30px;
+    width: 90px;
+}
+.button:active{
+    background-color: white;
+    color: grey;
+}
+/*
+    Instruction Page
+*/
+
+#instrutop{
+    background: rgba(0,0,0,.5);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.instru{
+    padding: 5px 0 0 0;
+    font-size: 30px;
+}
+#instru_text{
+    padding-top: 6px;
+}
+#spanLeft{
+    float: left;
+}
+#spanRight{
+    float: right;
+}
+#playbut{
+    float:right;
+    margin-right: 20px;
+
+}
+#backbut, #playbut{
+    display: block;
+    height: 20px;
+    width: 80px;
+    border: 2px solid grey;
+    font-family: cursive;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 4px black;
+    text-decoration: none;
+
+}
+#backbut{
+    float: left;
+}
+#playbut{
+    float: right;
+    margin-right: 0;
+
+}
+
+#backbut:active, #playbut:active{
+    background-color: white;
+    color: grey;
+}
+#instructionText{
+    font-size: 17px;
+
+}
