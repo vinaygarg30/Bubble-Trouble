@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg.png");
+    font-size: 1rem;
+    overflow: hidden;
+    font-family: Papyrus, serif;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+
+/*
+    Game Page
+*/
+
+.stop_game
+{
+    margin-top: 100px;
+}
+.button{
+    display: block;
+    height: 37px;
+    width: 130px;
+    background-color: grey;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 2px;
+    color: white;
+    border-radius: 14px;
+    box-shadow: 4px 4px 4px black;
+}
+.button.start{
+    margin-top: 50px;
+}
+.button.instruction{
+    margin-top: 30px;
+}
+.button.quit{
+    margin-top: 30px;
+}
+.button:active{
+    background-color: white;
+    border: 2px solid white;
+    color: grey;
+}
+.button_style{
+    background: rgba(0,0,0,0.9);
+    visibility: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+#pointsPara{
+    font-size: 39px;
+}
+#pausedPara{
+    position: fixed;
+    top: 10px;
+    right: 7px;
+    height: 20px;
+    width: 15px;
+}
+#timePara{
+    position: fixed;
+    left: 52%;
+    top: -14px;
+    font-size: 20px;
+}
+#textDiv{
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    height:42px; width:100%;
+    bottom: 0;
+    position: fixed;
+}
+#butterfly{
+
+}
